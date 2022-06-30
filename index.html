@@ -49,6 +49,7 @@
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Beomafav</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Profile</a></li>
+              <!-- edit the list items -->
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
@@ -58,9 +59,14 @@
 
     </nav>
     <main class="container-fluid mt-n5">
+        <!-- row  -->
         <div class="row">
+            <!-- column 1 -->
+            <!-- order-last for the arrangement,first in DOM,becomes the second colum -->
+            <!-- takes 6 columns on large devices,12 columns(which enables it to take full width ) -->
         <div class="col-lg-6 left-side col-sm-12  order-last"  >
             <div>
+                <!-- padding bottom of 7 -->
                 <div class="text-center pb-7"><br>
             <h1 style="color: #5F0F40">
                 Contact Us
@@ -79,17 +85,20 @@
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 15VW"required></textarea>
                 <label for="floatingTextarea2">Your Message</label><br>
               </div>
-
-            <btn class="btn d-grid gap-4 col-lg-2 col-md-3 col-sm-12 ">
+<!-- button -->
+<!-- mx auto to centralize -->
+            <btn class="btn d-grid gap-5  col-4 mx-auto ">
                 Submit
             </btn><br><br><br>
             </div>
             
         </div>
+        <!-- column 2 -->
         <div class="col-lg-6 col-md-12 col-sm-12 right-side !important">
             <div class="text-center">
                 <figure>
-            <img src="image 3.png"alt=""class="img "height="560vw"/>
+                    <!-- image  -->
+            <img src="ultralearn.png"alt=""class="img-fluid "height="560vw"/>
             <figcaption>
                 <p>Explore Growth Conversations</p>
             </figcaption>

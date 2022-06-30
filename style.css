@@ -35,21 +35,21 @@ body{
     margin-top: -5vw;
 }
 figcaption>p{
-    color: white;
+    color: #5F0F40;
     font-size: 2rem;
     font-weight: 800;
 }
 .left-side{
     background-color: #D9D9D9;
 }
-.right-side{
+/* .right-side{
     background-color: #5F0F40;
-}
+} */
 .btn{
     background-color: #5F0F40;
     color: white;
     /* text-align: center; */
-    margin: auto;
+    /* margin: auto; */
 }
 .form-floating{
     text-align: center;
