@@ -1,0 +1,70 @@
+body{
+    font-family: montserrat;
+    color: #5F0F40;
+}
+.nav-link{
+    color: 
+    #5F0F40;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.nav-link:hover{
+    color: #5F0F40;
+}
+.dropdown-toggle{
+        color: black;
+        font-weight: 400;
+        font-size: 1.5rem;
+        /* margin: 2vw; */
+}
+.dropdown-toggle:hover{
+    color: #5F0F40;
+}
+.navtext{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.image1{
+    margin: 0px;
+}
+.image2{
+    margin-left: -1vw;
+}
+.img{
+    margin-top: -5vw;
+}
+figcaption>p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.left-side{
+    background-color: #D9D9D9;
+}
+.right-side{
+    background-color: #5F0F40;
+}
+.btn{
+    background-color: #5F0F40;
+    color: white;
+    /* text-align: center; */
+    margin: auto;
+}
+.form-floating{
+    text-align: center;
+}
+@media  (min-width:300px) and (max-width: 840px) {
+    .img{
+        height: auto;
+        width: 95%;
+    }
+    .left-side{
+
+    }
+    .right-side{
+        display: hidden;
+
+    }
+}
+
